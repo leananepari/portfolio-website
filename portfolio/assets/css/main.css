@@ -1678,14 +1678,12 @@ input, select, textarea {
 		display: inline-block;
 		color: #fff !important;
 		text-decoration: none;
-		font-weight: 700;
+		font-weight: 500;
 		border: 0;
 		outline: 0;
 		cursor: pointer;
 		border-radius: 8px;
-		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 		background-color: #D0D0D0;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
@@ -1698,7 +1696,8 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: #D0D0D0;
-			color: #fff !important;
+      color: #fff !important;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
 		}
 
 		input[type="button"]:active,
@@ -1973,7 +1972,6 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		/* background-image: url("images/bg.png"); */
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
@@ -1985,15 +1983,12 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			/* background-color: #fafafa;
-      text-shadow: 1px 1px 0px #fff; */
       background-color: transparent;
 			text-shadow: 0px 0px 0px transparent;
 		}
 
 		.wrapper.style3 {
 			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style4 {
