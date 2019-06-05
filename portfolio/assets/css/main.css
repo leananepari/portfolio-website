@@ -1673,7 +1673,7 @@ input, select, textarea {
 		border: 0;
 		outline: 0;
 		cursor: pointer;
-		border-radius: 8px;
+		/* border-radius: 8px; */
 		overflow: hidden;
 		background-color: #D0D0D0;
 		padding: 0.5em 2.35em 0.5em 2.35em;
