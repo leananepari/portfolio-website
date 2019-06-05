@@ -98,11 +98,11 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
-		line-height: 1.85em;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 		color: #888;
 		font-weight: 300;
-		font-size: 13pt;
+    line-height: 1.4;
+    font-size: 13pt;
 	}
 
 	a {
@@ -113,10 +113,6 @@ input, select, textarea {
 		color: #43B3E0;
 		text-decoration: underline;
 	}
-
-		a:hover {
-			color: #43bff0 !important;
-		}
 
 		a img {
 			border: 0;
@@ -170,7 +166,7 @@ input, select, textarea {
 	}
 
 		h1 strong {
-			font-weight: 700;
+			font-weight: 500;
 		}
 
 	h2 {
@@ -1603,7 +1599,6 @@ input, select, textarea {
 			}
 
 			table.default thead {
-				background: #4f4f4f;
 				color: #fff;
 			}
 
@@ -1665,10 +1660,6 @@ input, select, textarea {
 	input[type="reset"],
 	button,
 	.button {
-		/* background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)); */
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
@@ -1685,7 +1676,7 @@ input, select, textarea {
 		border-radius: 8px;
 		overflow: hidden;
 		background-color: #D0D0D0;
-		padding: 1em 2.35em 1em 2.35em;
+		padding: 0.5em 2.35em 0.5em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
 	}
@@ -1715,7 +1706,8 @@ input, select, textarea {
 		button.large,
 		.button.large {
 			font-size: 1.5em;
-			letter-spacing: -0.025em;
+      font-weight: 500;
+      
 		}
 
 		input[type="button"].alt,
@@ -1723,7 +1715,6 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background-color: #444;
 			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 		}
 
@@ -1814,7 +1805,6 @@ input, select, textarea {
 					text-align: center;
 					outline: 0;
 					overflow: hidden;
-					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
 					width: 48px;
 				}
 
@@ -1992,13 +1982,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
 			color: #999;
-			text-shadow: -1px -1px 0px #181818;
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-				color: #fff;
+				color: #888;
 			}
 
 			.wrapper.style4 form input[type=text],
@@ -2006,7 +1994,6 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #282828;
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
@@ -2279,9 +2266,10 @@ input, select, textarea {
 			button,
 			.button {
 				text-align: center;
-				font-size: 1.2em;
+				font-size: 1.1em;
 				width: 100%;
-				padding: 1em 0 1em 0;
+        padding: 1em 0 1em 0;
+        font-weight: 600;
 			}
 
 				input[type="button"].large,
@@ -2289,8 +2277,7 @@ input, select, textarea {
 				input[type="reset"].large,
 				button.large,
 				.button.large {
-					font-size: 1.2em;
-					letter-spacing: 0;
+					font-size: 1.1em;
 				}
 
 		/* Social */
